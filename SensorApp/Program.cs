@@ -2,8 +2,6 @@
 
 class Programa
 {
-    static double LIMITE_GLOBAL = 80;
-
     static double Ingresar()
     {
         Console.Write("Ingrese temperatura: ");
@@ -20,9 +18,10 @@ class Programa
         return true;
     }
 
-    static string Evaluar(double temp)
+    static string Evaluar(double temp, double limite)
     {
-        if (temp > LIMITE_GLOBAL) return "ALERTA";
+        if (temp > limite)
+            return "ALERTA";
         return "NORMAL";
     }
 
@@ -33,11 +32,13 @@ class Programa
 
     static void Main()
     {
+        double limite = 80; // ahora el límite es local y controlado
+
         double temp = Ingresar();
 
         if (Validar(temp))
         {
-            string estado = Evaluar(temp);
+            string estado = Evaluar(temp, limite);
             Mostrar(estado);
         }
     }
