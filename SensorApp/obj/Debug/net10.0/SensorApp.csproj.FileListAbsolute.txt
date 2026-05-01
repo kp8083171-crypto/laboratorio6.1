@@ -1,0 +1,15 @@
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\bin\Debug\net10.0\SensorApp.exe
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\bin\Debug\net10.0\SensorApp.deps.json
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\bin\Debug\net10.0\SensorApp.runtimeconfig.json
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\bin\Debug\net10.0\SensorApp.dll
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\bin\Debug\net10.0\SensorApp.pdb
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\obj\Debug\net10.0\SensorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\obj\Debug\net10.0\SensorApp.AssemblyInfoInputs.cache
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\obj\Debug\net10.0\SensorApp.AssemblyInfo.cs
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\obj\Debug\net10.0\SensorApp.csproj.CoreCompileInputs.cache
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\obj\Debug\net10.0\SensorApp.sourcelink.json
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\obj\Debug\net10.0\SensorApp.dll
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\obj\Debug\net10.0\refint\SensorApp.dll
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\obj\Debug\net10.0\SensorApp.pdb
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\obj\Debug\net10.0\SensorApp.genruntimeconfig.cache
+C:\Users\KEVIN\OneDrive\Desktop\lab6_sensores\SensorApp\obj\Debug\net10.0\ref\SensorApp.dll
