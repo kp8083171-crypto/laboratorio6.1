@@ -2,34 +2,44 @@
 
 class Programa
 {
-    static int LIMITE_GLOBAL = 80;
+    static double LIMITE_GLOBAL = 80;
 
-    static bool ValidarTemperatura(double temp)
+    static double Ingresar()
+    {
+        Console.Write("Ingrese temperatura: ");
+        return double.Parse(Console.ReadLine());
+    }
+
+    static bool Validar(double temp)
     {
         if (temp < 0)
         {
-            Console.WriteLine("Error: valor inválido");
+            Console.WriteLine("Temperatura inválida");
             return false;
         }
         return true;
     }
 
-    static string EvaluarTemperatura(double temp)
+    static string Evaluar(double temp)
     {
-        if (temp > LIMITE_GLOBAL)
-            return "ALERTA";
+        if (temp > LIMITE_GLOBAL) return "ALERTA";
         return "NORMAL";
+    }
+
+    static void Mostrar(string resultado)
+    {
+        Console.WriteLine("Estado: " + resultado);
     }
 
     static void Main()
     {
-        Console.Write("Ingrese temperatura: ");
-        double temp = double.Parse(Console.ReadLine());
+        double temp = Ingresar();
 
-        if (ValidarTemperatura(temp))
+        if (Validar(temp))
         {
-            string estado = EvaluarTemperatura(temp);
-            Console.WriteLine("Estado: " + estado);
+            string estado = Evaluar(temp);
+            Mostrar(estado);
         }
     }
 }
+

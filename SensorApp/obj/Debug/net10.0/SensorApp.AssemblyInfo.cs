@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SensorApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff17018a6522f0ed27471c9bdff65379d5e5a0f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad3d771ce728f5d31a42aae6e7fa920bf1713cc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SensorApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SensorApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
